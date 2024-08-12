@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootStrap Animate</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      body {
+        margin: 0rem 1.2rem 0rem 1.8rem;
+      }
+    </style>
+  </head>
+
+  <body class="">
+    <nav class="navbar bg-white w-100 fixed-top navbar-expand-lg">
+      <div class="container-fluid mx-lg-4">
+        <a class="navbar-brand mb-0 h1" href="#">
+          <img
+            src="./images/logos.png"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="d-inline-block mb-3"
+          />
+          <span
+            class="navbar-brand mb-0 h1 align-content-center fs-2 satoshi-bold"
+            >Klovax</span
+          >
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-text navbar-collapse align-content-center justify-content-between fs-6 fw-semibold mb-2"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown ms-2 d-md-inline d-lg-inline">
+              <a
+                class="nav-link dropdown-toggle satoshi-medium"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="true"
+              >
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item satoshi-medium" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item satoshi-medium" href="#"
+                    >Another action</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item satoshi-medium" href="#"
+                    >Something else here</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-2 d-md-inline">
+              <a class="nav-link satoshi-medium" href="#">About</a>
+            </li>
+            <li class="nav-item ms-2 d-md-inline">
+              <a class="nav-link satoshi-medium" href="#">Resources</a>
+            </li>
+            <li class="nav-item ms-2 d-md-inline">
+              <a class="nav-link satoshi-medium" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <button
+          type="button"
+          class="btn btn-dark btn-lg d-none d-md-none d-lg-inline satoshi-medium"
+        >
+          Get in touch
+        </button>
+      </div>
+    </nav>
+
+    <div
+      class="commitment-perfect container-fluid row gy-lg-5 gx-lg-5 my-md-5 my-lg-5"
+    >
+      <div class="col-sm-12 col-lg-6 mt-md-5 pt-md-5">
+        <p class="perfect satoshi-bold fw-bolder text-black text-wrap">
+          The perfect saas kit for startups
+        </p>
+      </div>
+      <div class="col-12 col-lg-6 align-content-center">
+        <p class="commitment satoshi-medium ps-lg-3 text-wrap">
+          Our commitment to green energy is paving the way for a cleaner,
+          healthier planet. Join us on a journey towards a future where clean,
+          renewable energy sources transform the way we power our lives.
+        </p>
+        <button type="button" class="btn btn-lg">Get our solution</button>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <img
+        src="./images/imageOne.jpeg"
+        class="first img-fluid rounded-4 object-fit-cover justify-content-center"
+        alt="..."
+      />
+    </div>
+
+    <div class="create-slide container-fluid row pt-5">
+      <div class="container-fluid col-sm-12 col-md-8 col-lg-10 pe-5">
+        <p class="create satoshi-bold display-4">
+          Create effective hero blocks
+        </p>
+      </div>
+
+      <div class="container-fluid col-md-4 col-lg-2 justify-content-end ps-5">
+        <img
+          src="./images/Button - Previous slide.png"
+          class="slide d-none d-md-inline d-lg-inline"
+          alt="..."
+        />
+        <img
+          src="./images/Button - Next slide.png"
+          class="slide d-none d-md-inline"
+          alt="..."
+        />
+      </div>
+    </div>
+
+    <div
+      class="details container-fluid d-flex justify-content-lg-evenly my-5 pb-5"
+    >
+      <div class="container d-flex flex-column">
+        <img
+          src="./images/for office.jpeg"
+          class="second rounded-3 object-fit-cover column-gap-5 position-relative"
+          alt="..."
+        />
+
+        <div class="container-fluid position-relative">
+          <span
+            class="satoshi-medium text-dark fs-2 ms-4 mb-5 text-white position-absolute bottom-100"
+            >For offices</span
+          >
+        </div>
+      </div>
+
+      <div class="container d-flex flex-column">
+        <img
+          src="./images/for deco.jpeg"
+          class="second rounded-3 column-gap-5 object-fit-cover position-relative"
+          alt="..."
+        />
+
+        <div class="container-fluid position-relative">
+          <span
+            class="satoshi-medium text-dark fs-2 ms-4 mb-5 text-white position-absolute bottom-100"
+            >For decors</span
+          >
+        </div>
+      </div>
+
+      <div class="container d-flex flex-column">
+        <img
+          src="./images/for homes.jpeg"
+          class="second rounded-3 column-gap-5 object-fit-cover position-relative"
+          alt="..."
+        />
+
+        <div class="container-fluid position-relative">
+          <span
+            class="satoshi-medium text-dark fs-2 ms-4 mb-5 text-white position-absolute bottom-100"
+            >For homes</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="top container-fluid d-flex mb-5">
+      <div
+        class="container-fluid d-flex flex-column row-gap-4 align-content-center p-lg-5"
+      >
+        <div class="container-fluid">
+          <h1 class="satoshi-medium fw-medium display-4 ms-0">
+            Top features for your SaaS application
+          </h1>
+        </div>
+
+        <div class="check d-flex">
+          <div>
+            <img
+              class="checkList w-50"
+              src="./images/checkList.png"
+              alt="check"
+            />
+          </div>
+          <div>
+            <h4 class="satoshi-bold fs-6 fw-bold">Start anywhere</h4>
+            <p class="satoshi-regular fs-6 fw-normal">
+              Gain digital-first access to care wherever and whenever.
+            </p>
+          </div>
+        </div>
+
+        <div class="check d-flex">
+          <div>
+            <img
+              class="checkList w-50"
+              src="./images/checkList.png"
+              alt="check"
+            />
+          </div>
+          <div>
+            <h4 class="satoshi-bold fs-6 fw-bold">Know more</h4>
+            <p class="satoshi-regular fs-6 fw-normal">
+              With simple step-by-step guides across the journey.
+            </p>
+          </div>
+        </div>
+
+        <div class="check d-flex">
+          <div>
+            <img
+              class="checkList w-50"
+              src="./images/checkList.png"
+              alt="check"
+            />
+          </div>
+          <div>
+            <h4 class="satoshi-bold fs-6 fw-bold">Stay connected</h4>
+            <p class="satoshi-regular fs-6 fw-normal">
+              Through sleek experiences that keep them happy and coming back.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <button type="button" class="btn border border-black rounded btn-lg">
+            <span class="satoshi-medium fs-6 text-black">Request a demo</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="container-fluid pt-4">
+        <img
+          src="./images/seated.png"
+          class="seated img-fluid object-fit-cover"
+          alt="seated image"
+        />
+      </div>
+    </div>
+
+    <div class="top container-fluid d-flex mb-5 pt-5">
+      <div class="container-fluid pe-2">
+        <img
+          src="./images/meeting.jpeg"
+          class="meeting img-fluid rounded-4 object-fit-cover"
+          alt="seated image"
+        />
+      </div>
+
+      <div
+        class="container-fluid d-flex flex-column row-gap-4 align-content-center pt-5"
+      >
+        <div class="container-fluid">
+          <h1 class="satoshi-medium fw-medium display-4 ms-3">
+            Top features for your SaaS application
+          </h1>
+        </div>
+
+        <div class="check d-flex">
+          <div class="ms-3">
+            <img
+              class="checkList w-50"
+              src="./images/checkList.png"
+              alt="check"
+            />
+          </div>
+          <div>
+            <h4 class="satoshi-bold fs-6 fw-bold">Start anywhere</h4>
+            <p class="satoshi-regular fs-6 fw-normal">
+              Gain digital-first access to care wherever and whenever.
+            </p>
+          </div>
+        </div>
+
+        <div class="check d-flex">
+          <div class="ms-3">
+            <img
+              class="checkList w-50"
+              src="./images/checkList.png"
+              alt="check"
+            />
+          </div>
+          <div>
+            <h4 class="satoshi-bold fs-6 fw-bold">Know more</h4>
+            <p class="satoshi-regular fs-6 fw-normal">
+              With simple step-by-step guides across the journey.
+            </p>
+          </div>
+        </div>
+
+        <div class="check d-flex">
+          <div class="ms-3">
+            <img
+              class="checkList w-50"
+              src="./images/checkList.png"
+              alt="check"
+            />
+          </div>
+          <div>
+            <h4 class="satoshi-bold fs-6 fw-bold">Stay connected</h4>
+            <p class="satoshi-regular fs-6 fw-normal">
+              Through sleek experiences that keep them happy and coming back.
+            </p>
+          </div>
+        </div>
+
+        <div class="ms-3">
+          <button
+            type="button"
+            class="btn border border-black rounded btn-lg ms-2"
+          >
+            <span class="satoshi-medium fs-6 text-black">Request a demo</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid d-inline-flex justify-content-start align-content-center border-bottom border-secondary ms-2 pb-4 mb-5"
+    >
+      <div class="">
+        <img src="./images/Dotdot.png" alt="dot" class="img-fluid pb-1 pe-2" />
+      </div>
+
+      <div class="text-center">
+        <span class="blog satoshi-medium fs-6 fw-medium">Blog</span>
+      </div>
+    </div>
+
+    <div
+      class="ourTeam container-fluid d-flex justify-content-between align-items-center mb-5"
+    >
+      <div>
+        <h4 class="satoshi-regular fw-bold display-4 text-black">
+          Learn more from our blog
+        </h4>
+        <p class="satoshi-regular fw-normal">
+          Our team boasts top green energy experts, driving innovation in
+          sustainability.
+        </p>
+      </div>
+
+      <div>
+        <button
+          type="button"
+          class="btn btn-close-white btn-lg satoshi-medium border-black border-1 rounded-5 fs-5 fw-normal"
+        >
+          See all
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="headlines container-fluid d-inline-flex justify-content-between column-gap-3 align-content-center border-secondary ms-0 pb-4 mb-5"
+    >
+      <!-- <div class="headline container-fluid column-gap-1">
+        <div class="mb-5">
+          <img
+            class="img-fluid rounded-4 rounded-bottom-0 object-fit-cover"
+            src="./images/group1.jpeg"
+            alt="first group meeting"
+          />
+        </div>
+
+        <div
+          class="container-fluid d-flex flex-column align-content-center w-100 m-2"
+        >
+          <div class="solar container">
+            <h4 class="satoshi-medium mb-4">Harnessing the Power of the Sun</h4>
+            <p class="satoshi-regular">
+              Solar energy is revolutionizing the way we power our world. In
+              this blog post, we'll delv...
+            </p>
+          </div>
+
+          <div class="container-fluid d-flex column-gap-3">
+            <div class="">
+              <img
+                class="img-fluid align-self-center object-fit-cover"
+                src="./images/Image.png"
+                alt="image"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1">Leslie Alexander</p>
+            <div>
+              <img
+                class="img-fluid mt-1"
+                src="./images/Divider.png"
+                alt="divider"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1">9 min read</p>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="headline container-fluid column-gap-1">
+        <div class="mb-5">
+          <img
+            class="img-fluid rounded-4 rounded-bottom-0 object-fit-cover"
+            src="./images/group2.jpeg"
+            alt="first group meeting"
+          />
+        </div>
+
+        <div
+          class="container-fluid d-flex flex-column align-content-center w-100 m-2"
+        >
+          <div class="solar container">
+            <h4 class="satoshi-medium mb-4">
+              Exploring the World of Solar Energy
+            </h4>
+            <p class="satoshi-regular">
+              Solar energy is revolutionizing the way we power our world. In
+              this blog post, we'll delv...
+            </p>
+          </div>
+
+          <div class="container-fluid d-flex column-gap-3">
+            <div class="">
+              <img
+                class="img-fluid align-self-center object-fit-cover"
+                src="./images/Image.png"
+                alt="image"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1">Leslie Alexander</p>
+            <div>
+              <img
+                class="img-fluid mt-1"
+                src="./images/Divider.png"
+                alt="divider"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1">9 min read</p>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- cards -->
+      <div class="card">
+        <img
+          src="./images/group1.jpeg"
+          class="card-img-top img-fluid object-fit-cover"
+          alt="first group meeting"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Exploring the World of Solar Energy</h5>
+          <p class="card-text">
+            Solar energy is revolutionizing the way we power our world. In this
+            blog post, we'll delv...
+          </p>
+          <div class="container-fluid d-flex column-gap-3">
+            <div class="">
+              <img
+                class="img-fluid align-self-center object-fit-cover"
+                src="./images/Image.png"
+                alt="image"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1 text-center">Leslie Alexander</p>
+            <div>
+              <img
+                class="img-fluid mt-1"
+                src="./images/Divider.png"
+                alt="divider"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1 text-center">9 min read</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/group2.jpeg"
+          class="card-img-top img-fluid object-fit-cover"
+          alt="first group meeting"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Exploring the World of Solar Energy</h5>
+          <p class="card-text">
+            Solar energy is revolutionizing the way we power our world. In this
+            blog post, we'll delv...
+          </p>
+          <div class="container-fluid d-flex column-gap-3">
+            <div class="">
+              <img
+                class="img-fluid align-self-center object-fit-cover"
+                src="./images/Image.png"
+                alt="image"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1 text-center">Leslie Alexander</p>
+            <div>
+              <img
+                class="img-fluid mt-1"
+                src="./images/Divider.png"
+                alt="divider"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1 text-center">9 min read</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/group3.jpeg"
+          class="card-img-top img-fluid object-fit-cover"
+          alt="first group meeting"
+        />
+        <div class="card-body">
+          <h5 class="card-title">The Promising World of Biomass Energy</h5>
+          <p class="card-text">
+            Solar energy is revolutionizing the way we power our world. In this
+            blog post, we'll delv...
+          </p>
+          <div class="container-fluid d-flex column-gap-3">
+            <div class="">
+              <img
+                class="img-fluid align-self-center object-fit-cover"
+                src="./images/Image.png"
+                alt="image"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1 text-center">Leslie Alexander</p>
+            <div>
+              <img
+                class="img-fluid mt-1"
+                src="./images/Divider.png"
+                alt="divider"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1 text-center">9 min read</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="headline container-fluid column-gap-1">
+        <div class="mb-5">
+          <img
+            class="img-fluid rounded-4 rounded-bottom-0 object-fit-cover"
+            src="./images/group3.jpeg"
+            alt="first group meeting"
+          />
+        </div>
+
+        <div
+          class="container-fluid d-flex flex-column align-content-center w-100 m-2"
+        >
+          <div class="solar container">
+            <h4 class="satoshi-medium mb-4">
+              The Promising World of Biomass Energy
+            </h4>
+            <p class="satoshi-regular">
+              Solar energy is revolutionizing the way we power our world. In
+              this blog post, we'll delv...
+            </p>
+          </div>
+
+          <div class="container-fluid d-flex column-gap-3">
+            <div class="">
+              <img
+                class="img-fluid align-self-center object-fit-cover"
+                src="./images/Image.png"
+                alt="image"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1">Leslie Alexander</p>
+            <div>
+              <img
+                class="img-fluid mt-1"
+                src="./images/Divider.png"
+                alt="divider"
+              />
+            </div>
+            <p class="satoshi-medium fs-6 mt-1">9 min read</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <div
+      class="ourCommitment container-fluid d-flex flex-column text-center justify-content-center align-content-center row-gap-5 mb-5"
+    >
+      <h2 class="satoshi-medium">
+        Our commitment to efficient saas <br />template paves way for startups
+      </h2>
+      <div class="">
+        <button
+          type="button"
+          class="btn btn-dark btn-lg fs-5 d-md-inline satoshi-medium"
+        >
+          Get in touch
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="four-images container-fluid overflow-x-hidden w-100 d-inline-flex justify-content-between column-gap-3 my-5 text-center"
+    >
+      <div class="images deco">
+        <img
+          class="imagez w-100 h-100 rounded-4 object-fit-cover"
+          src="./images/for deco.jpeg"
+          alt="deco"
+        />
+      </div>
+      <div class="images office">
+        <img
+          class="office imagez h-100 w-100 rounded-4 object-fit-cover"
+          src="./images/for office.jpeg"
+          alt="office"
+        />
+      </div>
+      <div class="images groups">
+        <img
+          class="imagez h-100 w-100 rounded-4 object-fit-cover"
+          src="./images/group3.jpeg"
+          alt="groups"
+        />
+      </div>
+      <div class="images groups">
+        <img
+          class="imagez h-100 w-100 rounded-4 object-fit-cover"
+          src="./images/imageOne.jpeg"
+          alt="firstImage"
+        />
+      </div>
+    </div>
+
+    <div class="container-fluid my-5">
+      <div
+        class="subscription container-fluid d-flex justify-content-between align-content-center p-5 rounded-4"
+      >
+        <div class="">
+          <h2 class="get-subscribed satoshi-bold fw-bolder text-white">
+            Get subscribed to our <br />
+            engaging newsletter
+          </h2>
+        </div>
+
+        <form>
+          <div class="input d-flex justify-content-between column-gap-3 mt-5">
+            <input
+              type="email"
+              class="form-control satoshi-regular fs-6 rounded-3"
+              id="exampleFormControlInput1"
+              placeholder="Your email..."
+            />
+            <button
+              type="button"
+              class="satoshi-medium fs-6 btn rounded-3 text-white"
+            >
+              Get in touch
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- footer -->
+      <div class="d-flex flex-column justify-content-center">
+        <div
+          class="container-fluid my-5 d-flex justify-content-between column-gap-3 d-none d-md-inline-flex d-lg-inline-flex"
+        >
+          <div class="">
+            <img
+              class="img-fluid pb-3 object-fit-cover"
+              src="./images/logos.png"
+              alt="logo"
+            />
+            <span class="satoshi-bold fw-bold fs-3 ps-2">Klovax</span>
+          </div>
+
+          <div class="d-flex justify-content-between column-gap-3">
+            <div class="d-flex">
+              <div class="d-flex flex-column">
+                <span class="satoshi-medium mb-4 ms-5 fs-6 fw-bold"
+                  >Platform</span
+                >
+                <span class="span satoshi-regular mb-4 ms-5 fs-6"
+                  >Solutions</span
+                >
+                <span class="span satoshi-regular mb-4 ms-5 fs-6"
+                  >How it works</span
+                >
+                <span class="span satoshi-regular mb-4 ms-5 fs-6">Pricing</span>
+              </div>
+
+              <div class="d-flex flex-column">
+                <span class="satoshi-medium mb-4 ms-5 fs-6 fw-bold"
+                  >Company</span
+                >
+                <span class="span satoshi-regular mb-4 ms-5 fs-6">About</span>
+                <span class="span satoshi-regular mb-4 ms-5 fs-6"
+                  >Careers <img src="./images/Badge.png" alt="Badge"
+                /></span>
+                <span class="span satoshi-regular mb-4 ms-5 fs-6">contact</span>
+              </div>
+
+              <div class="d-flex flex-column">
+                <span class="satoshi-medium mb-4 ms-5 fs-6 fw-bold"
+                  >Resources</span
+                >
+                <span class="span satoshi-regular mb-4 ms-5 fs-6">Blog</span>
+                <span class="span satoshi-regular mb-4 ms-5 fs-6"
+                  >Help Center</span
+                >
+                <span class="span satoshi-regular mb-4 ms-5 fs-6">Support</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-gap-2">
+            <div class="container-fluid mb-4">
+              <img src="./images/facebook Icon.png" alt="facebook icon" />
+              <span class="ms-3 mb-3 satoshi-medium d-none d-lg-inline"
+                >Follow us on Facebook</span
+              >
+            </div>
+            <div class="container-fluid mb-4">
+              <img src="./images/Icon.png" alt="instagram logo" />
+              <span class="ms-3 mb-3 satoshi-medium d-none d-lg-inline"
+                >Follow us on Instagram</span
+              >
+            </div>
+            <div class="container-fluid mb-4">
+              <img src="./images/instagram.png" alt="linkedIn logo" />
+              <span class="ms-3 satoshi-medium d-none d-lg-inline"
+                >Follow us on LinkedIn</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <footer class="align-self-center mt-5">
+          <div>
+            <span class="span satoshi-regular"
+              >© 2024 Klovax. All rights reserved.</span
+            >
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
