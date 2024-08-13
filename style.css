@@ -26,6 +26,7 @@ body {
 
 .commitment-perfect {
   /* margin-top: 6rem; */
+  
 
   .commitment {
     color: #646a69;
@@ -240,10 +241,10 @@ footer {
       height: calc(3rem + 0.9vw);
 
       input {
-        width: calc(9.5rem + 0.9vw);
+        width: calc(8rem + 0.9vw);
       }
       button {
-        width: calc(5.46rem + 0.9vw);
+        width: calc(2.5rem + 0.9vw);
         background: var(--sec-color, #bef264);
         padding-block-end: 1.8rem;
       }
